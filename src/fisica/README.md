@@ -32,6 +32,6 @@ Veja um exemplo abaixo de Grama para Quilograma
 > node
 > const gtokg = (g) => (g * 1000)
 undefined
-> gtokg(200)
+> gtokg(20)
 20000
 ```
