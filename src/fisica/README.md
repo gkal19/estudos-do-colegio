@@ -11,6 +11,7 @@ undefined
 > FtoC(200)
 -99.67000000000002
 ```
+
 ### [tempo.js](https://github.com/gkal19/estudos-do-colegio/blob/master/src/fisica/tempo.js)
 
 Adicionei um arquivo onde você pode fazer a conversão de Tempo entre Segundos, Minutos e Horas.
@@ -21,4 +22,16 @@ Veja um exemplo abaixo de Segundos para Minutos
 undefined
 > stomin(60)
 1
+```
+
+### [massa.js](https://github.com/gkal19/estudos-do-colegio/blob/master/src/fisica/massa.js)
+
+Adicionei um arquivo onde você pode fazer a conversão de Massa entre Grama e Quilograma.
+Veja um exemplo abaixo de Grama para Quilograma
+```node
+> node
+> const gtokg = (g) => (g * 1000)
+undefined
+> gtokg(200)
+20000
 ```
