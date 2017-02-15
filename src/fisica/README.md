@@ -6,9 +6,9 @@ Adicionei um arquivo onde você pode fazer a conversão de Temperatura entre Cel
 Veja um exemplo abaixo de Fahrenheit para Celsius
 ```node
 > node
-> const FahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32 ) / 1.8
+> const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32 ) / 1.8
 undefined
-> FahrenheitToCelsius(200)
+> fahrenheitToCelsius(200)
 -99.67000000000002
 ```
 
@@ -30,8 +30,8 @@ Adicionei um arquivo onde você pode fazer a conversão de Massa entre Grama e Q
 Veja um exemplo abaixo de Grama para Quilograma
 ```node
 > node
-> const GramaToQuilograma = (g) => (g * 1000)
+> const gramaToQuilograma = (g) => (g * 1000)
 undefined
-> GramaToQuilograma(20)
+> gramaToQuilograma(20)
 20000
 ```
