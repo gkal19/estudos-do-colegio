@@ -8,6 +8,5 @@ Para quem não eu sou um Estudante do Ensino Médio e o [suissa](https://github.
 - [x] Temperatura 
 - [x] Massa 
 - [x] Tempo 
-=======
+
 [Post-Its](https://gkal19.github.io/estudos-do-colegio/)
->>>>>>> origin/gh-pages
