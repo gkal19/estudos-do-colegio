@@ -6,9 +6,9 @@ Adicionei um arquivo onde você pode fazer a conversão de Temperatura entre Cel
 Veja um exemplo abaixo de Fahrenheit para Celsius
 ```node
 > node
-> const FtoC = (fahrenheit) => (fahrenheit - 32 ) / 1.8
+> const FahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32 ) / 1.8
 undefined
-> FtoC(200)
+> FahrenheitToCelsius(200)
 -99.67000000000002
 ```
 
@@ -18,9 +18,9 @@ Adicionei um arquivo onde você pode fazer a conversão de Tempo entre Segundos,
 Veja um exemplo abaixo de Segundos para Minutos
 ```node
 > node
-> const stomin = (s) => (s * 1 / 60)
+> const secondsToMinutes = (s) => (s * 1 / 60)
 undefined
-> stomin(60)
+> secondsToMinutes(60)
 1
 ```
 
@@ -30,8 +30,8 @@ Adicionei um arquivo onde você pode fazer a conversão de Massa entre Grama e Q
 Veja um exemplo abaixo de Grama para Quilograma
 ```node
 > node
-> const gtokg = (g) => (g * 1000)
+> const GramaToQuilograma = (g) => (g * 1000)
 undefined
-> gtokg(20)
+> GramaToQuilograma(20)
 20000
 ```
